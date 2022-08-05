@@ -1,0 +1,88 @@
+*{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-decoration: none;
+   font-size: 25px;
+}
+
+div img{
+   width: 100%;
+   
+}
+
+div{
+   padding-left: 100px;
+   margin:0 auto  ;
+   width:850px;
+}
+p{
+   padding-left: 12px;
+   padding-top: 0px;
+   font-weight:100 ;
+}
+
+.presentation{
+   border-radius: 10px;
+   box-shadow: 0px 10px 15px 6px rgb(48, 143, 67);
+}
+
+.suite{
+   border-radius: 10px;
+   box-shadow: 0px 10px 15px 6px rgb(110, 115, 111);
+}
+   
+.nosPrestation{
+   border-radius: 10px;
+   box-shadow: 0px 10px 15px 6px rgb(200, 234, 47);
+}
+
+h1{
+   padding-left: 12px;
+   padding-top: 10px;
+}
+h2{
+   padding-left: 12px;
+   padding-top: 10px;
+   text-align: justify;
+}
+h3{
+   
+   border-radius: 2px;
+   width: 300px;
+   background-color: rgb(67, 163, 22);
+}
+
+.contact{
+   background-color: rgb(64, 57, 57);
+   color: aliceblue;
+   
+}
+
+.contact p{
+   text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width:1000px){
+   img{
+      width: 100%;
+   }
+   div{
+      padding:5em;
+      margin:0 auto;
+      width: 95%;
+      text-align: center;
+   }
+   
+}
+
+
+
+
+
+/*.card1{
+   background-image: url(glen-carrie-vTKwzbWPdxA-unsplash.jpg);
+}*/
+
